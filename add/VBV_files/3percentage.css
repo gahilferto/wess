@@ -1,0 +1,68 @@
+body{width:100%;line-height:12px;cursor:pointer;-webkit-tap-highlight-color: transparent;}
+.wrapper{width:100%;border:none;background-color:#FFF;height:100%;min-height:100%;}
+div[header]{height:9%;width:100%;background-color:#FFF;border-bottom:1px solid #EEE;}
+.multiple-select-wrapper .list{height:110px;}
+.list-itemsstyle{padding:5px;}
+.selected-items-box {padding: 5px 0px 0 2px;}
+a.channel-tooltip:hover span {left:22%}
+.inputbox{width:87%;}
+.noInfo{width:96%;}
+.extphonenumberNoInfo{width:71%;}
+.extphonenumber{width:62%;}
+.first{width: 28.6%;}
+.last{width: 28.6%;}
+.middle{width: 28.6%;}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button { -webkit-appearance: normal; }
+@media only screen and ( min-width: 320px ) and ( max-width: 480px ) and ( max-height: 331px ) { 
+.read-only{margin-top:1.0125%;}
+}
+@media only screen and (min-width:320px) and (max-width:480px) and (min-height:332px) and (max-height:432px){.form-content,.form-content .read-only,.disclaimer-container,.content-container p,.info-container,.error-container{margin-top:1.0125%;}
+.error-container span{font-size:9px;line-height:7px;}
+.info-container span{font-size:9px;line-height:8px;}
+.form-content div label.disclaimer{font-size:11px;}
+.help-container{max-height:150px;}
+.labelpasscode{padding:1px 0;}
+.help-container-iphone{max-height:280px;overflow-y:scroll;-webkit-overflow-scrolling:touch;width:100%;}
+div[header]{height:13%;}
+.zoomdisable {font-size: 16px;}
+.zoomdisable::-webkit-input-placeholder {font-size: 12px;padding: 2px 0 0 2%;}
+}
+@media only screen and (min-width:320px) and (max-width:480px) and (min-height:433px) and (max-height:470px){div[header]{height:10%;}
+h1,.form-content .read-only,.disclaimer-container,.content-container p,.info-container,.error-container{margin-top:1.0125%;font-size:100%;}
+.form-content{margin-top:0%;}
+.controls-readvalue,.controls-readvalue3btns{margin-top:2.0125%;}
+.content-container p{font-size:100%;}
+.help-container{max-height:200px;}
+.selected-items-box {padding: 5px 0px 1px 1px;height:20px;}
+.selected-items-box .items-list{padding:0px;}
+.dropdown-icon {right: -5px;}
+.labelpasscode{padding:1px 0;}
+.help-container-iphone{max-height:370px;overflow-y:scroll;-webkit-overflow-scrolling:touch;width:100%;}
+.zoomdisable {font-size: 16px;}
+.zoomdisable::-webkit-input-placeholder {font-size: 12px;padding: 2px 0 0 2%;}
+}
+@media only screen and (min-width:320px) and (max-width:480px) and (min-height:471px) and (max-height:520px){div[header]{height:10%;}
+h1,.form-content .read-only,.disclaimer-container,.content-container p,.info-container,.error-container{margin-top:1.0125%;font-size:100%;}
+.form-content{margin-top:0%;}
+.controls-readvalue,.controls-readvalue3btns{margin-top:2.0125%;}
+.content-container p{font-size:100%;}
+.help-container-iphone{max-height:390px;overflow-y:scroll;-webkit-overflow-scrolling:touch;width:100%;}
+.zoomdisable {font-size: 16px;}
+.zoomdisable::-webkit-input-placeholder {font-size: 12px;padding: 2px 0 0 2%;}
+}
+@media only screen and (min-width:320px) and (max-width:480px) and (min-height:521px) and (max-height:660px){div[header]{height:10%;}
+h1,.form-content .read-only,.disclaimer-container,.content-container p,.info-container,.error-container{margin-top:2.1125%;}
+.form-content{margin-top:0%;}
+.controls-readvalue,.controls-readvalue3btns{margin-top:2.2125%;}
+.content-container p{padding:2.2%;}
+.help-container-iphone{max-height:400px;overflow-y:scroll;-webkit-overflow-scrolling:touch;width:100%;}
+}
+@media only screen and (min-width:320px) and (max-width:480px) and (min-height:661px) and (max-height:960px){div[header]{height:10%;}
+h1,.form-content .read-only,.disclaimer-container,.content-container p,.info-container,.error-container{margin-top:2.1125%;}
+.form-content{margin-top:0%;}
+.controls-readvalue,.controls-readvalue3btns{margin-top:2.2125%;}
+.content-container p{padding:2.2%;}
+.help-container-iphone{max-height:400px;overflow-y:scroll;-webkit-overflow-scrolling:touch;width:100%;}
+}
+@media screen and (max-width:319px){.wrapper{width:320px;padding:0px;margin-left:auto;margin-right:auto;left:0;top:0%;height:100%;min-height:400px;}
+}
